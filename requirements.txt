@@ -3,3 +3,9 @@ uvicorn
 gunicorn
 jinja2
 python-multipart
+PyJWT
+httpx
+sqlalchemy
+passlib
+pymssql
+bcrypt

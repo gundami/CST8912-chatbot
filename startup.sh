@@ -1,1 +1,2 @@
-python -m uvicorn main:app --host 0.0.0.0
+pip install -r requirements.txt 
+gunicorn -w 2 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:8000 main:app
